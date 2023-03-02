@@ -1,0 +1,99 @@
+/* Colors and fonts */
+
+body {
+background-image: url(images/background-picture.png) ;
+color: rgb(50, 50, 50);
+font-family: Helvetica;
+font-size: 20px;
+}
+
+h1, h2 {
+font-family: 'Lobster Two', cursive;
+font-weight: bold;
+letter-spacing: 0px;
+}
+
+h1 {
+  color: rgb(0, 0, 150);
+	font-size: 40px;
+	margin: 40px auto;
+}
+
+h2 {
+  color: rgb(0, 0, 150);
+	font-size: 27px;
+}
+
+a {
+text-decoration: none;
+color: rgb(0, 0, 150);
+font-weight: bold;
+}
+
+a:hover {
+	color: rgb(130, 130, 230);
+}
+
+img{
+	size: 50;
+}
+
+/*design by class*/
+
+.container{
+       width: 700px;
+       margin: 40px auto;
+}
+
+.card-white{
+       background-color: white;
+       padding: 40px;
+       box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+       border-radius: 4px;
+       margin: 20px 0px;
+       text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+#sport-aligne{
+	text-align:left;
+}
+
+.btn-blue{
+       background-color:#95BDFF;
+       color:rgb(0, 0, 150);
+       padding: 15px 20px;
+       border-radius: 4px;
+}
+
+.btn-blue:hover {
+       background-color:#ECF2FF ;
+       color: rgb(130, 130, 230);
+}
+
+.list-inline{
+	list-style: none;
+       padding-left: 0px;
+}
+
+.list-inline li{
+       display: inline;
+       padding:10px;
+}
+
+.list-inline i{
+       font-size: 50px;
+       color:#cfc8ba;
+}
+ 
+.list-inline i:hover{
+       color:#381b2f ;
+}
+
+#cinema p{
+       margin-bottom: 40px;
+}
+
